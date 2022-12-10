@@ -2,7 +2,8 @@ body
 {
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    overflow: auto;
+    overflow-x:hidden !important;
+    overflow-y:scroll;
 }
 
 .myHeader
@@ -165,7 +166,7 @@ body
     
     #headerTitle
     {
-        top: 60px;
+        top: 65px;
         left: 160px;
         font-size: 40px;
         position: relative;
@@ -180,7 +181,7 @@ body
     text-decoration: none;
     position: relative;
     top: 320px;
-    margin-left: 0px;
+    left: 0px;
 }
 }
 
